@@ -1,0 +1,57 @@
+.homepage-container{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.grid-container{
+    display: flex;
+    
+}
+
+.grid{
+    width:25vw;
+    height:60vh;
+    margin: .2rem;
+
+}
+
+.grid-links{
+    background-color: #ffebb7;
+    background: url(../../images/france.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.grid-mid{
+    background-color: #fff4e1;
+    background:url(../../images/su.jpg);
+    background-size: cover;
+
+}
+.grid-rechts{
+    background-color: #928a97;
+    background: url(../../images/mal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titelQuote{
+    color:#fff; 
+    display: block;
+    background-color:#f29c81;
+    color:white;
+  
+    display:inline-block;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-family: Montserrat, sans-serif;
+    padding:.3rem;
+    letter-spacing: .4rem;
+
+}

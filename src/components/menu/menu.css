@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
 
 
 .menu-container{
@@ -32,3 +32,8 @@ a{
 a:hover{
   color:#ffb6b9;
 }
+
+.logo{
+width: 100%;
+height: auto;
+padding-left:2rem;}

@@ -10,6 +10,7 @@ import '../../pages/main.css'
 
 
 
+
 const HomepageGrid = () => (
  
 <div className='homepage-container'>
@@ -18,12 +19,18 @@ const HomepageGrid = () => (
 
 
     <div className='grid-container'>
-
-
-    <Link to="/page-2/"><div className='grid grid-links'></div></Link>
-      
-      <div className='grid grid-mid'></div>
-      <div className='grid grid-rechts'></div>
+       <div className='kleineGridContainer'>
+          <Link to="fullblog"><div className='grid grid-links'></div></Link>
+          <p>Lessen van onze adembenemende vakantie in Maleisië met kinderen</p>
+      </div>
+      <div className='kleineGridContainer'>
+        <div className='grid grid-mid'></div>
+        <p>Lessen van onze adembenemende vakantie in Maleisië met kinderen</p>
+      </div>
+      <div className='kleineGridContainer'>
+        <div className='grid grid-rechts'></div>
+        <p>Lessen van onze vakantie in Maleisië met kinderen</p>
+      </div>
     </div>
    </div>
 

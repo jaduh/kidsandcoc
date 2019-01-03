@@ -1,0 +1,73 @@
+
+
+.blogHeaderContainer{
+    width: 100vw;
+    height: 75vh;
+  padding:5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.blogHeaderTekst{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   padding: 1rem;
+   
+
+   
+   
+
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+
+    
+    font-size:3rem; 
+    padding-left: 2rem;
+    letter-spacing: .4rem;
+}
+p{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 2rem;
+}
+.blogHeaderFoto{
+    width: 50vw;
+    height: 80vh;
+   
+    background-image: url(../../images/mal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bodyContainer{
+    
+    margin: 4rem;
+    display:flex;
+    flex-direction: column;
+   
+    align-items:center;
+  }
+  
+  .p-container{
+    margin:20px;
+  }
+  p{
+    width:40vw;
+    padding:10px;
+  }
+  
+  .beeld-container{
+    width:100vw;
+      background-color:#fae3d9;
+    height:50vh;
+    display: flex;
+  }
